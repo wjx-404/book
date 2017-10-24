@@ -39,3 +39,37 @@ $ git add --all  &&  git add .
 ```shell
 $ git commit -m '...'
 ```
+
+
++ 设置名字和email
+```shell
+$git config --global user.email "you@example.com"
+$git config --global user.name "Your Name"
+```
+
++ 提交被托管的代码变化的本地仓库
+```shell
+$ git commit -m "..."
+```
+
++ 回到指定版本
+```shell
+$ git reset --hard
+```
+
++ 查看提交日志
+```shell
+$ git log
+```
+
++ 对比差异
+```shell
+$git diff
+```
+
+### github是什么？
+> GitHub说白了只是一个网站
+> 同性交友社区 都是程序员
+> https://github.com/
+> 提出概念：社交化编程平台，同时他也是git的服务提供商
++ GitHub和git的关系：他是git的服务提供商，提供了免费的仓库，--前提：开源
